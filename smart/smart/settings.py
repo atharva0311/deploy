@@ -27,8 +27,10 @@ SECRET_KEY = 'django-insecure-d7kmyt*4rrg1(d3nj0px0$r-%f%7h5uxz3n_g0luz+4)6_f1d3
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['*',
-                'smart-traffic.vercel.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app',
+                'smart.vercel.app',
+                'localhost', 
+                '127.0.0.1']
 
 # Application definition
 
