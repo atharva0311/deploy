@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "smart/wsgi.py",
+      "src": "smart-traffic/wsgi.py",
       "use": "@vercel/python",
       "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
     },
@@ -15,7 +15,7 @@
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "smart/wsgi.py" },
+    { "src": "/(.*)", "dest": "smart-traffic/wsgi.py" },
     { "src": "/static/(.*)", "dest": "/static/$1" }
   ]
 }
