@@ -28,7 +28,7 @@ DEBUG = False
 
 
 ALLOWED_HOSTS = ['.vercel.app',
-                'smart.vercel.app',
+                'https://smart-eta-ten.vercel.app/',
                 'localhost', 
                 '127.0.0.1']
 
